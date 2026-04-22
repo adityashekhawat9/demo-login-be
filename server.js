@@ -25,3 +25,5 @@ app.listen(PORT,async ()=>{
    await connectDb(mongo_uri)
     console.log("server is running on PORT :",PORT)
 })
+
+// check github actions ci/cd
